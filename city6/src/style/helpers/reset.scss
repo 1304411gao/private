@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:14px tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: inherit; }
+a:hover { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+*{font-family: "DIN Alternate",-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;letter-spacing: .05em;}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.float-tag:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.float-tag > li{
+    float: left;
+}
+.clear, .float-tag{	zoom: 1;}
+input{
+    outline-color: #e0e0e0;
+    border-width: 1px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 35px 0;
+}
