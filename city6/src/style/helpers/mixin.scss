@@ -96,3 +96,32 @@ $themeColor: #ff8a65;
     visibility: hidden;
     opacity: 0;
 }
+
+
+
+%btnP{
+    box-shadow: 0px 1px 4px rgba(128,10,0,.5);
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    &:hover{
+        box-shadow: 0px 1px 4px rgba(128,10,0,.2);
+    }
+
+}
+%btn{
+    background-color: #ff8a65;
+    border: 1px solid #ff7366;
+    //box-shadow: 2px 0 4px rgba(128,10,0,.5);
+    box-shadow: inset 1px 2px 4px rgba(255,255,255,.5);
+    -webkit-box-shadow: inset 1px 2px 4px rgba(255,255,255,.5);
+    -moz-box-shadow: inset 1px 2px 4px rgba(255,255,255,.5);
+    transition: .05s;
+    -webkit-transition: .05s;
+    -moz-transition: .05s;
+    outline: none;
+
+    &:active{
+        box-shadow: inset 1px 2px 4px rgba(0,0,0,.1);
+    }
+}
